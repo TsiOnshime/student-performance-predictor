@@ -48,7 +48,7 @@ function App() {
         {/* LEFT SIDE */}
         <div>
           <span className="inline-flex items-center gap-2 px-3 py-1 text-sm bg-blue-100 text-blue-600 rounded-full mb-4">
-            📊 KNN MODEL V1.0
+            KNN MODEL V1.0
           </span>
 
           <h1 className="text-4xl font-bold text-gray-900 mb-4 leading-tight">
@@ -62,7 +62,7 @@ function App() {
 
           <div className="bg-white border rounded-xl p-6 shadow-sm max-w-xl">
             <h3 className="font-semibold text-lg mb-4 flex items-center gap-2">
-              📘 How it works
+              How it works
             </h3>
 
             <ul className="space-y-4 text-gray-600">
@@ -96,7 +96,7 @@ function App() {
           className="bg-white border rounded-xl p-8 shadow-sm max-w-md w-full"
         >
           <h3 className="font-semibold text-lg mb-6 flex items-center gap-2">
-            🧮 Input Student Data
+            Input Student Data
           </h3>
 
           <div className="space-y-5">
