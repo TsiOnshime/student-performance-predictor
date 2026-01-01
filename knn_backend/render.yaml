@@ -4,3 +4,6 @@ services:
     env: python
     buildCommand: pip install -r requirements.txt
     startCommand: gunicorn knn_backend.wsgi
+    preDeployCommand: |
+      python manage.py makemigrations
+      python manage.py migrate
