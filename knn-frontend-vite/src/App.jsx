@@ -33,11 +33,10 @@ function App() {
       <nav className="bg-white border-b">
         <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
           <div className="flex items-center gap-2 font-semibold text-lg">
-            🎓 EduPredict
+            EduPredict
           </div>
           <div className="flex gap-8 text-gray-600 font-medium">
-            <span>Dashboard</span>
-            <span>Students</span>
+        
             <span className="text-blue-600">Analysis</span>
           </div>
         </div>
